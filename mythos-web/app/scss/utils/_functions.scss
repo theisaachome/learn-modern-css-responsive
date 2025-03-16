@@ -1,0 +1,18 @@
+@use "sass:math";
+@function rem($px) {
+    // divide by 16 to convert px to rems
+    @if math.is-unitless($px) {
+        @return math.div($px, 16) * 1rem;
+    }
+    @else {
+       @error "Don't use units when using rem() function,only numbers";
+    }
+}
+@function em($px) {
+    @if math.is-unitless($px) {
+        @return math.div($px, 16) * 1em;
+    }
+    @else {
+       @error "Don't use units when using em() function,only numbers";
+    }
+}
