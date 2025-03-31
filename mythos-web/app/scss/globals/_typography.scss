@@ -7,18 +7,8 @@ h1,h2,h3{
 }
 
 h1{
-    font-size: clamp(u.rem(28), u.rem(16) + 2vw, u.rem(40));
-    // font-size: clamp(1.75rem, 1rem + 2vw, 2.5rem);
-
-    // font-size: calc(16px  + 2vw);
-    // font-size: 7.5vw;// one of the best practices for responsive typography
-    // font-size: 28px; // mobile
-    // @include u.breakpoint('medium'){
-    //     font-size: 36px;
-    // }
-    // @include u.breakpoint('large'){
-    //     font-size: 42px;
-    // }
+   font-size: 2.625rem;
+   font-size: clamp(2.625rem, 1.77rem + 3.63vw, 4.5rem);
 }
 h2{
 
