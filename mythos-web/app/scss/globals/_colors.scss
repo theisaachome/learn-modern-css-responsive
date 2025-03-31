@@ -2,3 +2,14 @@
     --background-color:hsl(0, 0%, 13%);
     --text-color:hsl(0, 0%, 100%);
 }
+
+.magenta{
+            // this is reusing the placholder
+            // @extend %widget;
+            background-color: hsl(300, 63%, 28%);
+}
+.green{
+            // this is reusing the placholder
+            // @extend %widget;
+            background-color: hsl(120, 98%, 21%);
+}

@@ -48,6 +48,14 @@ a:active {
   --text-color:hsl(0, 0%, 100%);
 }
 
+.magenta {
+  background-color: hsl(300, 63%, 28%);
+}
+
+.green {
+  background-color: hsl(120, 98%, 21%);
+}
+
 .grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -78,9 +86,6 @@ a:active {
     background-color: hsl(40, 92%, 39%);
   }
 }
-.grid__sidebar {
-  background-color: hsl(300, 63%, 28%);
-}
 @media (max-width: 56.24875em) {
   .grid__sidebar {
     text-align: center;
@@ -90,4 +95,13 @@ a:active {
   .grid__sidebar {
     text-align: right;
   }
+}
+.grid__widget {
+  padding: 1rem;
+}
+.grid__widget.magenta {
+  background-color: hsl(300, 63%, 28%);
+}
+.grid__widget.green {
+  background-color: hsl(120, 98%, 21%);
 }/*# sourceMappingURL=styles.css.map */
