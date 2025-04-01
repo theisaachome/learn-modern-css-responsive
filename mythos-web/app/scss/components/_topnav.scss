@@ -1,0 +1,42 @@
+@use '../utils/' as u;
+
+
+.topnav{
+    background-color: var(--header-bg);
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__homelink{
+
+    }
+    &__logo{
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: u.rem(24);
+        font-weight: 700;
+        color: var(--text-color);
+        text-decoration: none;
+    }
+    &__links{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 10px;
+        margin: 0;
+        padding: 0;
+    }
+    &__item{
+        list-style: none;
+    }
+    &__link{
+        font-size: u.rem(16);
+        font-weight: 700;
+        letter-spacing: 0.05em;
+        color:var(--text-light);
+        text-transform: uppercase;
+    }
+  
+
+}
